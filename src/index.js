@@ -18,9 +18,9 @@ const map = new Map();
 const topList = new TopList();
 const footer = new Footer();
 
-document.body.appendChild(app.element);
-
 const fishingMap = app.element;
+document.body.appendChild(fishingMap);
+
 const mainContainer = main.element;
 
 fishingMap.appendChild(header.element);
