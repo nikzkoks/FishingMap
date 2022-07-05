@@ -18,9 +18,9 @@ const map = new Map();
 const topList = new TopList();
 const footer = new Footer();
 
-document.body.appendChild(app.element);
-
 const fishingMap = app.element;
+document.body.appendChild(fishingMap);
+
 const mainContainer = main.element;
 
 fishingMap.appendChild(header.element);
@@ -48,3 +48,6 @@ function showTopList() {
   mainContainer.removeChild(childNodeMain);
   mainContainer.appendChild(topList.element);
 }
+
+map.element.innerHTML =
+  '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A636b1bbe2bd2c706794b7346a3844438943256f3e54a55047f066fcc4c30fc33&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>';
