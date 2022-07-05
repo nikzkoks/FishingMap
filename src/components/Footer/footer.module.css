@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+  box-shadow: 5px 5px 19px 2px rgba(0, 0, 0, 0.9);
+}
+.logo {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 45px;
+  height: 45px;
+  background: url(../../assets/img/logo_fish.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  margin-right: 10px;
+  margin-left: 10px;
+}

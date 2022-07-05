@@ -1,0 +1,31 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 88vh;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+  box-shadow: 5px 5px 19px 2px rgba(0, 0, 0, 0.9);
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding: 5px;
+  list-style-type: none;
+  user-select: none;
+}
+
+.sidebar-menu_item {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  text-shadow: #bcf3e9 1px 0 10px;
+}
+
+.btn-map,
+.btn-top_list {
+  cursor: pointer;
+}

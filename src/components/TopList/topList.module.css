@@ -1,0 +1,9 @@
+.top-list {
+  display: flex;
+  width: 95%;
+  height: 88vh;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #00c0ff, #18b848);
+  box-shadow: 5px 5px 19px 2px rgba(0, 0, 0, 0.9);
+  margin-left: 8px;
+}
