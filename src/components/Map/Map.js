@@ -6,8 +6,7 @@ export class Map {
     this.element = new DomElement({
       type: "div",
       className: css.map,
-      html: `
-			`,
+      html: ``,
     }).element;
   }
 }
