@@ -1,4 +1,5 @@
 import {} from './main.css';
+import '@csstools/normalize.css';
 
 import { App } from './components/App/App';
 import { Header } from './components/Header/Header';
